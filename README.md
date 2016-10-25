@@ -24,80 +24,83 @@ This plugin moves every require("style.css") in entry chunks into a separate css
 
 ## Loaders
 
-1. [json](http://npmjs.org/json)
+1. [json-loader](http://npmjs.org/json-loader)
 Loads file as JSON
 
-1. [raw](http://npmjs.org/raw)
+1. [raw-loader](http://npmjs.org/raw-loader)
 Loads raw content of a file (as utf-8)
 
-1. [xml](http://npmjs.org/xml)
+1. [xml-loader](http://npmjs.org/xml-loader)
 Loads XML as JSON
 
-1. [file](http://npmjs.org/file)
+1. [file-loader](http://npmjs.org/file-loader)
 Emits the file into the output folder and returns the (relative) url.
 
-1. [url](http://npmjs.org/url)
+1. [url-loader](http://npmjs.org/url-loader)
 The url loader works like the file loader, but can return a Data Url if the file is smaller than a limit.
 
-1. [image](http://npmjs.org/image)
+1. [image-loader](http://npmjs.org/image-loader)
 Compresses your images. Ideal to use together with file or url.
 
-1. [img](http://npmjs.org/img)
+1. [img-loader](http://npmjs.org/img-loader)
 Load and compress images with imagemin.
 
-1. [base64-image](http://npmjs.org/base64-image)
+1. [base64-image-loader](http://npmjs.org/base64-image-loader)
 Load image as base64 string src
 
-1. [vue](http://npmjs.org/vue)
+1. [vue-loader](http://npmjs.org/vue-loader)
 Load single-file Vue.js components as modules, with loader-support for preprocessors.
 
-1. [babel](http://npmjs.org/babel)
+1. [babel-loader](http://npmjs.org/babel-loader)
 Turn ES6 code into vanilla ES5 using Babel.
 
-1. [awesome-typescript](http://npmjs.org/awesome-typescript)
+1. [awesome-typescript-loader](http://npmjs.org/awesome-typescript-loader)
 Loads TypeScript like JavaScript with watching support. 
 
-1. [html](http://npmjs.org/html)
+1. [html-loader](http://npmjs.org/html-loader)
 Exports HTML as string, require references to static resources.
 
-1. [yaml](http://npmjs.org/yaml)
+1. [yaml-loader](http://npmjs.org/yaml-loader)
  Converts YAML to JSON
 
-1. [yml](http://npmjs.org/yml)
+1. [yml-loader](http://npmjs.org/yml-loader)
  Converts YAML to JavaScript object, optionally omitting blacklisted keys
 
-1. [ejs](http://npmjs.org/ejs)
+1. [ejs-loader](http://npmjs.org/ejs-loader)
 Loads EJS (underscore( templating engine) template and returns a pre-compiled function
 
-1. [mustache](http://npmjs.org/mustache)
+1. [mustache-loader](http://npmjs.org/mustache-loader)
 Pre-compiles Mustache templates with Hogan.js and returns a function
 
-1. [nunjucks](http://npmjs.org/nunjucks)
+1. [nunjucks-loader](http://npmjs.org/nunjucks-loader)
 Precompiles nunjucks templates
 
-1. [style](http://npmjs.org/style)
+1. [style-loader](http://npmjs.org/style-loader)
 Add exports of a module as style to DOM
 
-1. [css](http://npmjs.org/css)
+1. [css-loader](http://npmjs.org/css-loader)
 Loads css file with resolved imports and returns css code
 
-1. [sass](http://npmjs.org/sass)
+1. [less-loader](http://npmjs.org/less-loader)
+Loads and compiles a less file
+
+1. [sass-loader](http://npmjs.org/sass-loader)
 Loads and compiles a scss file
 
-1. [stylus](http://npmjs.org/stylus)
+1. [stylus-loader](http://npmjs.org/stylus-loader)
 Loads and compiles a stylus file
 
-1. [postcss](http://npmjs.org/postcss)
+1. [postcss-loader](http://npmjs.org/postcss-loader)
 Post-process CSS with Autoprefixer and other PostCSS plugins
 
-1. [autoprefixer](http://npmjs.org/autoprefixer)
+1. [autoprefixer-loader](http://npmjs.org/autoprefixer-loader)
 Add vendor prefixes to CSS rules using values from Can I Use
 
-1. [eslint](http://npmjs.org/eslint)
+1. [eslint-loader](http://npmjs.org/eslint-loader)
 PreLoader for linting code using ESLint.
 
-1. [image-size](http://npmjs.org/image-size)
+1. [image-size-loader](http://npmjs.org/image-size-loader)
 Loads an image and returns its dimensions and type
 
-1. [csslint](http://npmjs.org/csslint)
+1. [csslint-loader](http://npmjs.org/csslint-loader)
 PreLoader for linting code using CSSLint
